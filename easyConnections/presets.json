@@ -1,0 +1,58 @@
+{
+  "Web-Debugging": {
+    "Protocol": "HTTP",
+    "Direction": "Beide",
+    "Category": "Web Services",
+    "NetworkType": "Alle Netzwerke",
+    "TCPUDPType": "Nur TCP",
+    "ProcessInfo": true
+  },
+  "DNS Monitoring": {
+    "Protocol": "DNS",
+    "Direction": "Beide",
+    "Category": "Monitoring",
+    "NetworkType": "Alle Netzwerke",
+    "TCPUDPType": "Nur UDP",
+    "ProcessInfo": true
+  },
+  "Datenbank-Monitor": {
+    "Protocol": "Alle",
+    "Direction": "Beide",
+    "Category": "Database Services",
+    "NetworkType": "Alle Netzwerke",
+    "TCPUDPType": "Nur TCP",
+    "ProcessInfo": true
+  },
+  "Externe Verbindungen": {
+    "Protocol": "Alle",
+    "Direction": "Beide",
+    "Category": "Alle Kategorien",
+    "NetworkType": "Nur Public",
+    "TCPUDPType": "TCP + UDP",
+    "ProcessInfo": true
+  },
+  "Email Services": {
+    "Protocol": "SMTP",
+    "Direction": "Beide",
+    "Category": "Email Services",
+    "NetworkType": "Alle Netzwerke",
+    "TCPUDPType": "Nur TCP",
+    "ProcessInfo": true
+  },
+  "Interne Services": {
+    "Protocol": "Alle",
+    "Direction": "Beide",
+    "Category": "Alle Kategorien",
+    "NetworkType": "Nur Private",
+    "TCPUDPType": "Nur TCP",
+    "ProcessInfo": true
+  },
+  "Security-Audit": {
+    "Protocol": "Alle",
+    "Direction": "Beide",
+    "Category": "Alle Kategorien",
+    "NetworkType": "Nur Public",
+    "TCPUDPType": "Nur TCP",
+    "ProcessInfo": true
+  }
+}

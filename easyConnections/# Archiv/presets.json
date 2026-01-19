@@ -1,0 +1,58 @@
+﻿{
+    "Interne Services":  {
+                             "Direction":  "Beide",
+                             "TCPUDPType":  "Nur TCP",
+                             "NetworkType":  "Nur Private",
+                             "ProcessInfo":  true,
+                             "Category":  "Alle Kategorien",
+                             "Protocol":  "Alle"
+                         },
+    "Email Services":  {
+                           "Direction":  "Beide",
+                           "TCPUDPType":  "Nur TCP",
+                           "NetworkType":  "Alle Netzwerke",
+                           "ProcessInfo":  true,
+                           "Category":  "Email Services",
+                           "Protocol":  "SMTP"
+                       },
+    "DNS Monitoring":  {
+                           "Direction":  "Beide",
+                           "TCPUDPType":  "Nur UDP",
+                           "NetworkType":  "Alle Netzwerke",
+                           "ProcessInfo":  true,
+                           "Category":  "Monitoring",
+                           "Protocol":  "DNS"
+                       },
+    "Datenbank-Monitor":  {
+                              "Direction":  "Beide",
+                              "TCPUDPType":  "Nur TCP",
+                              "NetworkType":  "Alle Netzwerke",
+                              "ProcessInfo":  true,
+                              "Category":  "Database Services",
+                              "Protocol":  "Alle"
+                          },
+    "Security-Audit":  {
+                           "Direction":  "Beide",
+                           "TCPUDPType":  "Nur TCP",
+                           "NetworkType":  "Nur Public",
+                           "ProcessInfo":  true,
+                           "Category":  "Alle Kategorien",
+                           "Protocol":  "Alle"
+                       },
+    "Web-Debugging":  {
+                          "Direction":  "Beide",
+                          "TCPUDPType":  "Nur TCP",
+                          "NetworkType":  "Alle Netzwerke",
+                          "ProcessInfo":  true,
+                          "Category":  "Web Services",
+                          "Protocol":  "HTTP"
+                      },
+    "Externe Verbindungen":  {
+                                 "Direction":  "Beide",
+                                 "TCPUDPType":  "TCP + UDP",
+                                 "NetworkType":  "Nur Public",
+                                 "ProcessInfo":  true,
+                                 "Category":  "Alle Kategorien",
+                                 "Protocol":  "Alle"
+                             }
+}
